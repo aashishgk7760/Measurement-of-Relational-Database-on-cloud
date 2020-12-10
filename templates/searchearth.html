@@ -1,0 +1,13 @@
+{% block content %}
+<a href="/"><input class="button3" type="button" value="Home"></a> <div> <br>
+<h1 class="display-4">Aashish Geeshpathy Krishnamurthy</h1> <H1>1001715288</H1> <img style="height: 150px" src="static/s.jpg"></div>
+<H3> Requested data as below </H3>
+<table border=" 1.0">
+    {% for x in ci %}
+    <tr>
+        <td> {{ x }} </td>
+    </tr>
+    {% endfor %}
+    <a href="/"><input class="button3" type="button" value="Home"></a> <div> <br>
+</table>
+{% endblock %}
